@@ -18,6 +18,26 @@ h1,h2,h3,h4,h5,h6{
 
 /* ===============common css end=============== */
 
+/* back-to-top part css start */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 9999;
+    display: none;
+}
+.back-to-top i {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    background: #c9a66d;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+/* back-to-top part css end */
+
 /* -----navber-area css start hare-----  */
 .navbar {
     padding-top: 20px;
@@ -98,7 +118,6 @@ h1,h2,h3,h4,h5,h6{
     height: 100%;
     transform: scale(1);
     animation: zoom 6s linear 1;
-    /* animation: zoom 5s linear infinite; */
     filter: grayscale(30%);
 }
 @keyframes zoom {
