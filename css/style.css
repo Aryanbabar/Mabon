@@ -16,6 +16,13 @@ h1,h2,h3,h4,h5,h6{
     line-height: 0.8;
 }
 
+h2 {
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
 /* ===============common css end=============== */
 
 /* back-to-top part css start */
@@ -29,12 +36,18 @@ h1,h2,h3,h4,h5,h6{
 .back-to-top i {
     width: 50px;
     height: 50px;
-    color: #fff;
+    color: #c9a66d;
     font-size: 16px;
-    background: #c9a66d;
-    line-height: 50px;
+    border: 2px solid #c9a66d;
+    line-height: 45px;
     text-align: center;
     border-radius: 50%;
+    transition: all linear 0.3s;
+}
+.back-to-top i:hover {
+    background: transparent;
+    border: 2px solid #c9a66d;
+    transform: scale(0.9);
 }
 /* back-to-top part css end */
 
@@ -83,7 +96,6 @@ h1,h2,h3,h4,h5,h6{
     visibility: visible;
 }
 /* -----navber-area css end hare----- */
-
 
 /* navber-area css start hare  */
 #banner {
@@ -316,10 +328,6 @@ h1,h2,h3,h4,h5,h6{
 }
 .title h2 {
     color: #222;
-    font-size: 32px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    text-transform: capitalize;
     width: 520px;
     line-height: 38px;
     padding-bottom: 10px;
@@ -359,7 +367,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* service-area css start hare  */
 #service {
-    padding: 92px 0 100px;
+    padding: 97px 0 100px;
     background: #f8f4f3;
 }
 #service .head {
@@ -374,10 +382,6 @@ h1,h2,h3,h4,h5,h6{
 }
 .head h2 {
     color: #222;
-    font-size: 32px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    text-transform: capitalize;
 }
 #service .row {
 	--bs-gutter-x: 0rem;
@@ -485,7 +489,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* portfolio-area css start hare  */
 #portfolio {
-    padding: 100px 0 50px;
+    padding: 97px 0 50px;
 }
 #portfolio .head {
     padding-bottom: 65px;
@@ -635,7 +639,7 @@ h1,h2,h3,h4,h5,h6{
     /* height: 80vh; */
     position: relative;
     z-index: 9;
-    padding: 100px 0 100px;
+    padding: 100px 0 95px;
 }
 #testimonials::after {
     content: '';
@@ -657,10 +661,6 @@ h1,h2,h3,h4,h5,h6{
 }
 .testi-title h2 {
     color: #fff;
-    font-size: 32px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    text-transform: capitalize;
     padding-bottom: 20px;
 }
 .testi-content p {
@@ -786,11 +786,9 @@ h1,h2,h3,h4,h5,h6{
 /* testimonials-area css end hare  */
 
 
-
-
 /* team-area css start hare  */
 #team {
-    padding: 92px 0 100px;
+    padding: 97px 0 93px;
 }
 #team .head {
     padding-bottom: 50px;
@@ -909,7 +907,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* blog-area css start hare  */
 #blog {
-    padding: 100px 0 80px;
+    padding: 96px 0 80px;
 }
 #blog .head {
     padding-bottom: 50px;
