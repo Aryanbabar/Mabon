@@ -60,15 +60,16 @@ h2 {
     top: 0;
     left: 0;
     z-index: 999;
-    border-bottom: 1px solid #cea05b4b;
+    /* border-bottom: 1px solid #cea05b4b; */
 }
 .navbar-expand-lg .navbar-nav .nav-link {
 	color: #fff;
-    font-size: 14px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     padding-left: 0;
     padding-right: 0;
-    margin-left: 15px;
+    margin-left: 30px;
     text-transform: capitalize;
     transition: all linear 0.3s;
     position: relative;
@@ -81,9 +82,7 @@ h2 {
     width: 0%;
     height: 1px;
     background: #fff;
-    transform-origin: left;
     position: absolute;
-    /* bottom: -22px; */
     bottom: 0;
     left: 0;
     opacity: 0;
@@ -383,12 +382,9 @@ h2 {
 .head h2 {
     color: #222;
 }
-#service .row {
-	--bs-gutter-x: 0rem;
-}
 .service-item {
     background: #fff;
-    border: 1px solid #d6d3d2;
+    /* border: 1px solid #d6d3d2; */
     padding: 40px 20px;
     position: relative;
     z-index: 9;
@@ -469,7 +465,7 @@ h2 {
 .service-item:hover a {
     color: #dbd8d8;
 }
-.service-item i {
+/* .service-item i {
     color: #444;
     font-size: 16px;
     padding-left: 30px;
@@ -484,8 +480,12 @@ h2 {
     padding-left: 10px;
     opacity: 1;
     visibility: visible;
-}
+} */
+
 /* service-area css end hare  */
+
+
+
 
 /* portfolio-area css start hare  */
 #portfolio {
@@ -539,7 +539,6 @@ h2 {
     overflow: hidden;
 }
 .portfolio-item img {
-    /* transform: scale(1); */
     transition: all linear 0.3s;
 }
 .portfolio-item:hover img {
@@ -548,7 +547,7 @@ h2 {
 .port-overlay {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.2);
     position: absolute;
     top: 0;
     left: 0;
@@ -595,7 +594,59 @@ h2 {
     opacity: 1;
     visibility: visible;
 }
+
+.port-overlay2 {
+    width: 100%;
+    height: 28%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.3s;
+}
+.portfolio-item:hover .port-overlay2 {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.port-overlay2 h4 {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-top: 22px;
+}
+.port-overlay2 p {
+    color: #bdbdbd;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
 /* portfolio-area css end hare  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* counter-area css start hare  */
 #counter {
@@ -627,7 +678,6 @@ h2 {
     right: 27%;
 }
 /* counter-area css end hare  */
-
 
 /* testimonials-area css start hare  */
 #testimonials {
@@ -683,7 +733,7 @@ h2 {
     transform: scale(1);
     position: absolute;
     top: 70%;
-    left: 125px;
+    left: 10%;
     z-index: 9;
     transition: all linear 0.3s;
 }
@@ -745,8 +795,6 @@ h2 {
     left: 25px;
     transform: rotate(45deg);
 }
-
-
 .testi-say p {
     color: #e5e5e5;
     font-size: 14px;
@@ -830,10 +878,9 @@ h2 {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 1);
-    padding-top: 40px;
+    padding-top: 30px;
     position: absolute;
     top: -80px;
-    /* bottom: -50px; */
     left: 0;
     opacity: 0;
     visibility: hidden;
@@ -841,7 +888,6 @@ h2 {
 }
 .team-item:hover .team-overlay2 {
     top: 0;
-    /* bottom: 0; */
     opacity: 1;
     visibility: visible;
 }
@@ -866,8 +912,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     text-transform: capitalize;
-    padding-top: 25px;
-    padding-bottom: 3px;
+    padding-top: 18px;
 }
 .team-details p {
     color: #888;
@@ -875,7 +920,7 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     text-transform: capitalize;
     font-weight: 400;
-    padding-bottom: 20px;
+    padding-bottom: 8px;
 }
 /* team-area css end hare  */
 
@@ -894,12 +939,10 @@ h2 {
 }
 .client-item img {
     margin: 0 auto;
-    filter: grayscale(100%);
     transition: all linear 0.3s;
     opacity: 0.6;
 }
 .client-item img:hover {
-    filter: grayscale(0%);
     opacity: 1;
 }
 /* clients-area css end hare  */
@@ -915,13 +958,6 @@ h2 {
 .blog-item {
     overflow: hidden;
     position: relative;
-}
-.blog-content {
-    position: relative;
-    background: #fff;
-    width: 92%;
-    margin-top: -40px;
-    padding: 30px 20px;
 }
 .blog-img {
     position: relative;
@@ -939,9 +975,18 @@ h2 {
 .blog-item:hover .blog-img {
     transform: scale(1.1);
 }
+.blog-content {
+    position: relative;
+    background: #fff;
+    width: 92%;
+    margin-top: -40px;
+    padding: 30px 20px;
+    /* filter: drop-shadow(2px 2px 3px #bdb3b3); */
+    box-shadow: 0 10px 15px 0 rgb(37 37 37 / 10%);
+}
 .blog-date {
     width: 100px;
-    height: 25px;
+    height: 28px;
     background: rgba(255, 255, 255, 0.6);
     position: absolute;
     top: 0;
@@ -953,6 +998,7 @@ h2 {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    line-height: 26px;
     text-align: center;
 }
 .blog-content h4 {
@@ -982,6 +1028,23 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
+    position: relative;
+}
+.blog-content a::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: #c9a66d;
+    transform-origin: left;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    visibility: hidden;
+    transition: all linear 0.3s;
+}
+.blog-content a:hover::after {
+    width: 100%;
+    visibility: visible;
 }
 /* blog-area css end hare  */
 
