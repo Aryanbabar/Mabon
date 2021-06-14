@@ -8,17 +8,590 @@
 
 /* -------medium device media css start--------  */
 @media(min-width:768px) and (max-width:991.98px){
+    /* navber media css start */
+    .navbar {
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+    .navbar-toggler i {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        background: #fff;
+        border-radius: 3px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .navbar-nav {
+        background: #000;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: 0;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        display: inline-block;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        bottom: 6px;
+    }
+    /* --banner-area media css start-- */
+    #banner {
+        height: 70vh;
+    }
+    .banner-main {
+        top: 38%;
+    }
+    .banner-content p {
+        max-width: 500px;
+    }
+    #banner:hover .right-arrow {
+        right: 11px;
+    }
+    #banner:hover .left-arrow {
+        right: 70px;
+    }
+    /* --about-area media css start-- */
+    #about {
+        padding: 80px 0 80px;
+    }
+    .about-pic {
+        margin-right: 10px;
+    }
+    .about-content {
+        padding: 60px 0px 0px;
+    }
+    .about-content p {
+        line-height: 22px;
+    }
+    .about-item i {
+        padding-top: 0;
+    }
+    /* --service-area media css start-- */
+    #service {
+        padding: 80px 0 80px;
+    }
+    .service-item {
+        padding: 30px 20px;
+        margin-bottom: 24px;
+    }
+    /* --portfolio-area media css start-- */
+    #portfolio {
+        padding: 80px 0 50px;
+    }
+    #portfolio .head {
+        padding-bottom: 40px;
+    }
+    .port-nav {
+        padding-bottom: 40px;
+    }
+    .port-overlay2 h4 {
+        font-size: 18px;
+        padding-top: 7px;
+        margin-bottom: 3px;
+    }
+    .port-overlay2 p {
+        font-size: 15px;
+    }
+    /* --counter-part-area media css start-- */
+    #counter {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .counter-item {
+        padding-bottom: 20px;
+    }
+    .counter-item h4 {
+        padding-bottom: 0px;
+    }
+    .counter-item p {
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .counter-item i {
+        font-size: 18px;
+        right: 13%;
+    }
+    /* --testimonilas-area media css start-- */
+    #testimonials {
+        padding: 80px 0 140px;
+    }
+    .testi-content p {
+        line-height: 24px;
+    }
+    .testi-say {
+        padding: 18px 18px;
+    }
+    .testi-say p {
+        line-height: 24px;
+    }
+    .test-item {
+        margin-left: 0px;
+    }
+    .test-img {
+        left: 84%;
+    }
+    .testi-left-arrow {
+        top: 85%;
+        left: 4%;
+    }
+    .testi-right-arrow {
+        top: 85%;
+        left: 83px;
+    }
+
+
+
+
 
 }
 
 /* -------small device media css start--------  */
 @media(min-width:576px) and (max-width:767.98px){
-
+    /* navber media css start */
+    .navbar {
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+    .navbar-toggler i {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        background: #fff;
+        border-radius: 3px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .navbar-nav {
+        background: #000;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: 0;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        display: inline-block;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        bottom: 6px;
+    }
+    /* --banner-area media css start-- */
+    #banner {
+        height: 70vh;
+    }
+    .banner-main {
+        top: 38%;
+    }
+    .banner-content h1 {
+        font-size: 50px;
+        line-height: 52px;
+        padding-bottom: 13px;
+    }
+    .banner-content p {
+        line-height: 22px;
+    }
+    #banner:hover .right-arrow {
+        right: 11px;
+    }
+    #banner:hover .left-arrow {
+        right: 70px;
+    }
+    /* --about-area media css start-- */
+    #about {
+        padding: 60px 0 60px;
+    }
+    .about-pic {
+        margin-right: 10px;
+    }
+    .about-content {
+        padding: 60px 0px 0px;
+    }
+    .about-content p {
+        line-height: 22px;
+    }
+    .about-item i {
+        padding-top: 0;
+    }
+    /* --service-area media css start-- */
+    #service {
+        padding: 60px 0 60px;
+    }
+    .service-item {
+        padding: 30px 20px;
+        margin-bottom: 24px;
+    }
+    /* --portfolio-area media css start-- */
+    #portfolio {
+        padding: 60px 0 30px;
+    }
+    #portfolio .head {
+        padding-bottom: 30px;
+    }
+    .port-nav {
+        padding-bottom: 30px;
+    }
+    .port-nav button {
+        margin-right: 10px;
+    }
+    .port-overlay2 h4 {
+        font-size: 16px;
+        padding-top: 5px;
+        margin-bottom: 3px;
+    }
+    .port-overlay2 p {
+        font-size: 13px;
+    }
+    /* --counter-part-area media css start-- */
+    #counter {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .counter-item {
+        padding-bottom: 20px;
+    }
+    .counter-item h4 {
+        padding-bottom: 0px;
+    }
+    .counter-item p {
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .counter-item i {
+        font-size: 18px;
+        right: 3%;
+    }
+    /* --testimonilas-area media css start-- */
+    #testimonials {
+        padding: 60px 0 140px;
+    }
+    .testi-content p {
+        line-height: 24px;
+    }
+    .testi-say {
+        padding: 18px 18px;
+    }
+    .testi-say p {
+        line-height: 24px;
+    }
+    .test-item {
+        margin-left: 0px;
+    }
+    .test-img {
+        left: 84%;
+    }
+    .testi-left-arrow {
+        top: 85%;
+        left: 4%;
+    }
+    .testi-right-arrow {
+        top: 85%;
+        left: 83px;
+    }
+    /* -- team-area media css start-- */
+    #team {
+        padding: 60px 0 60px;
+    }
+    /* --counter-area media css start-- */
+    #client {
+        padding: 60px 0 60px;
+    }
+    /* -- blog-area media css start-- */
+    #blog {
+        padding: 60px 0 60px;
+    }
+    /* -- footer-area media css start-- */
+    #footer {
+        padding-top: 60px;
+    }
+    .footer-content p {
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    .footer-content {
+        padding-bottom: 35px;
+    }
+    .footer-address {
+        padding-bottom: 35px;
+    }
+    .footer-details p {
+        line-height: 24px;
+    }
+    .copyright-area {
+        margin-top: 60px;
+    }
+    .copyright-content {
+        text-align: center;
+    }
+    .footer-box i {
+        padding: 12px 54px;
+    }
+    .copyright-content p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .copyright-content {
+        text-align: center!important;
+    }
 }
+
+
+
+
+
 
 /* -------xtra-small device media css start--------  */
 @media(max-width:575.98px){
-    
+    /* navber media css start */
+    .navbar {
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+    .navbar-toggler i {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        background: #fff;
+        border-radius: 3px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .navbar-nav {
+        background: #000;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: 0;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        display: inline-block;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        bottom: 6px;
+    }
+    /* --banner-area media css start-- */
+    #banner {
+        height: 70vh;
+    }
+    .banner-main {
+        top: 38%;
+    }
+    .banner-content h1 {
+        font-size: 33px;
+        line-height: 42px;
+        padding-bottom: 13px;
+    }
+    .banner-content p {
+        line-height: 22px;
+    }
+    #banner:hover .right-arrow {
+        right: 11px;
+    }
+    #banner:hover .left-arrow {
+        right: 70px;
+    }
+    /* --about-area media css start-- */
+    #about {
+        padding: 60px 0 60px;
+    }
+    .about-pic {
+        margin-right: 10px;
+    }
+    .about-content {
+        padding: 60px 0px 0px;
+    }
+    .title h2 {
+        line-height: 34px;
+        font-size: 27px;
+    }
+    .about-content p {
+        line-height: 22px;
+    }
+    .about-item {
+        width: 90%;
+        padding-bottom: 10px;
+    }
+    .about-item i {
+        padding-top: 0;
+    }
+    /* --service-area media css start-- */
+    #service {
+        padding: 60px 0 50px;
+    }
+    .service-item {
+        padding: 30px 20px;
+        margin-bottom: 24px;
+    }
+    /* --portfolio-area media css start-- */
+    #portfolio {
+        padding: 60px 0 30px;
+    }
+    #portfolio .head {
+        padding-bottom: 30px;
+    }
+    .port-nav button {
+        margin-right: 10px;
+    }
+    .port-overlay2 h4 {
+        font-size: 17px;
+        padding-top: 5px;
+        margin-bottom: 3px;
+    }
+    .port-overlay2 p {
+        font-size: 14px;
+    }
+    /* --counter-part-area media css start-- */
+    #counter {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .counter-item {
+        padding-bottom: 20px;
+    }
+    .counter-item h4 {
+        padding-bottom: 0px;
+    }
+    .counter-item p {
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .counter-item i {
+        font-size: 18px;
+        right: 8%;
+    }
+    /* --testimonilas-area media css start-- */
+    #testimonials {
+        padding: 60px 0 140px;
+    }
+    .testi-title h2 {
+        padding-bottom: 15px;
+        font-size: 27px;
+        line-height: 34px;
+    }
+    .testi-content p {
+        line-height: 24px;
+    }
+    .testi-say {
+        padding: 18px 18px;
+    }
+    .testi-say p {
+        line-height: 24px;
+    }
+    .test-item {
+        margin-left: 0px;
+    }
+    .test-img {
+        left: 71%;
+    }
+    .testi-left-arrow {
+        top: 88%;
+        left: 4%;
+    }
+    .testi-right-arrow {
+        top: 88%;
+        left: 75px;
+    }
+    /* -- team-area media css start-- */
+    #team {
+        padding: 60px 0 60px;
+    }
+    /* --counter-area media css start-- */
+    #client {
+        padding: 60px 0 60px;
+    }
+    /* -- blog-area media css start-- */
+    #blog {
+        padding: 60px 0 60px;
+    }
+    /* -- footer-area media css start-- */
+    #footer {
+        padding-top: 60px;
+    }
+    .footer-content p {
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    .footer-content {
+        padding-bottom: 35px;
+    }
+    .footer-address {
+        padding-bottom: 35px;
+    }
+    .footer-details p {
+        line-height: 24px;
+    }
+    .copyright-area {
+        margin-top: 60px;
+    }
+    .copyright-content {
+        text-align: center;
+    }
+    .copyright-content p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .copyright-content {
+        text-align: center!important;
+    }
 }
+
+/* -------xtra-small device media css start--------  */
+@media(min-width:500px) and (max-width:575px) {
+    .banner-content h1 {
+        font-size: 50px;
+        line-height: 52px;
+        padding-bottom: 13px;
+    }
+    .about-item {
+        width: 50%;
+        padding-bottom: 10px;
+    }
+    .port-overlay2 h4 {
+        font-size: 17px;
+        padding-top: 20px;
+        margin-bottom: 3px;
+    }
+    .counter-item i {
+        right: 29%;
+    }
+    .test-img {
+        left: 84%;
+    }
+    .testi-left-arrow {
+        top: 85%;
+    }
+    .testi-right-arrow {
+        top: 85%;
+        left: 82px;
+    }
+    .footer-box i {
+        padding: 20px 48px;
+    }
+}
+
+
 
 

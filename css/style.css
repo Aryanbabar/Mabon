@@ -20,10 +20,10 @@ h2 {
     font-size: 32px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+    line-height: 38px;
     text-transform: capitalize;
 }
-
-/* ===============common css end=============== */
+/* ================= common css end ================= */
 
 /* back-to-top part css start */
 .back-to-top {
@@ -117,7 +117,7 @@ h2 {
     left: 0;
 }
 .banner-pic1 {
-    background: url(../images/banner1.png);
+    background: url(../images/banner-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -129,7 +129,6 @@ h2 {
     height: 100%;
     transform: scale(1);
     animation: zoom 6s linear 1;
-    filter: grayscale(30%);
 }
 @keyframes zoom {
     0%{
@@ -143,7 +142,7 @@ h2 {
     }
 }
 .banner-pic2 {
-    background: url(../images/banner-2.png);
+    background: url(../images/banner-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -152,8 +151,6 @@ h2 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    filter: grayscale(30%);
     transform: scale(1);
     animation: zoom 6s linear 2;
 }
@@ -167,7 +164,6 @@ h2 {
     top: 0;
     left: 0;
     width: 100%;
-    filter: grayscale(30%);
     transform: scale(1);
     animation: zoom 6s linear 3;
 }
@@ -243,7 +239,7 @@ h2 {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 56px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 .banner-content p {
     color: #fff;
@@ -252,7 +248,7 @@ h2 {
     font-weight: 400;
     line-height: 26px;
     text-transform: capitalize;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 .banner-content a {
     color: #fff;
@@ -327,7 +323,6 @@ h2 {
 }
 .title h2 {
     color: #222;
-    width: 520px;
     line-height: 38px;
     padding-bottom: 10px;
 }
@@ -378,59 +373,17 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 10px;
 }
 .head h2 {
     color: #222;
 }
 .service-item {
     background: #fff;
-    /* border: 1px solid #d6d3d2; */
     padding: 40px 20px;
-    position: relative;
-    z-index: 9;
     transition: all ease-out 0.3s;
-    transform: scale(1);
-    overflow: hidden;
 }
-/* .service-item::before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background: url(../images/service1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0;
-    visibility: visible;
-    transition: all linear 0.3s;
-    transform: scale(1);
-}
-.service-item:hover::before {
-    opacity: 1;
-    visibility: visible;
-    transform: scale(1.1);
-} */
-/* .service-item::after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    opacity: 0;
-    visibility: visible;
-    transition: all linear 0.3s;
-}
-.service-item:hover::after {
-    opacity: 1;
-    visibility: visible;
-} */
 .service-item:hover {
 	box-shadow: 0px 3px 8px -5px #000;
 	margin-top: -2px;
@@ -458,28 +411,10 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-
 .service-item i {
     color: #c9a66d;
     font-size: 45px;
 } 
-/* .service-item i {
-    color: #444;
-    font-size: 16px;
-    padding-left: 30px;
-    display: inline-block;
-    margin-top: 5px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all linear 0.3s;
-} */
-/* .service-item:hover i {
-    color: #c7c7c7;
-    padding-left: 10px;
-    opacity: 1;
-    visibility: visible;
-}  */
-
 /* service-area css end hare  */
 
 
@@ -596,7 +531,6 @@ h2 {
     visibility: visible;
     transform: translateX(-50%) scale(1.1);
 }
-
 .port-overlay2 {
     width: 100%;
     height: 28%;
@@ -627,18 +561,7 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-
-
 /* portfolio-area css end hare  */
-
-
-
-
-
-
-
-
-
 
 /* counter-area css start hare  */
 #counter {
@@ -834,7 +757,8 @@ h2 {
     padding-bottom: 50px;
 }
 .team-item {
-    background: #fcf9f9;
+	background: #fcf9f9;
+	margin: 0 12px;
 }
 .team-pic {
     position: relative;
@@ -950,6 +874,7 @@ h2 {
 .blog-item {
     overflow: hidden;
     position: relative;
+    margin: 0 12px;
 }
 .blog-img {
     position: relative;

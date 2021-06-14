@@ -71,6 +71,30 @@ $(function(){
     // speed: 1000,
   });
 
+  // team-slider;
+  $('.team-slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    autoplaySpeed: 3000,
+    responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 420,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+  });
 
 
   // brand-slider;
@@ -99,4 +123,29 @@ $(function(){
   });
 
 });
+
+// team-slider;
+// $('.blog-slider').slick({
+//   slidesToShow: 4,
+//   slidesToScroll: 1,
+//   autoplay: true,
+//   arrows: false,
+//   autoplaySpeed: 3000,
+//   responsive: [
+//       {
+//         breakpoint: 768,
+//         settings: {
+//           slidesToShow: 2,
+//           slidesToScroll: 1
+//         }
+//       },
+//       {
+//         breakpoint: 420,
+//         settings: {
+//           slidesToShow: 1,
+//           slidesToScroll: 1
+//         }
+//       }
+//     ]
+// });
 
