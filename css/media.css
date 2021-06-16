@@ -1,9 +1,78 @@
 
 
 
+/* -------xtra-large device media css start--------  */
+@media(min-width:2200px){
+    .port-overlay2 h4 {
+        padding-top: 57px;
+    }
+}
+@media(min-width:1800px){
+    .port-overlay2 h4 {
+        padding-top: 35px;
+    }
+    .counter-item i {
+        right: 31%;
+    }
+}
+
 /* -------large device media css start--------  */
 @media(min-width:992px) and (max-width:1199.98px){
-
+    /* navber media css start */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    /* --about-area media css start-- */
+    .about-item {
+        width: 50%;
+    }
+    .about-item p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* --service-area media css start-- */
+    #service {
+        padding: 90px 0 90px;
+    }
+    /* --portfolio-area media css start-- */
+    #portfolio {
+        padding: 90px 0 60px;
+    }
+    .port-overlay2 h4 {
+        padding-top: 15px;
+    }
+    /* --counter-part-area media css start-- */
+    #counter {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    /* --testimonilas-area media css start-- */
+    #testimonials {
+        padding: 90px 0 90px;
+    }
+    /* -- team-area media css start-- */
+    #team {
+        padding: 90px 0 90px;
+    }
+    /* --counter-area media css start-- */
+    #client {
+        padding: 90px 0 90px;
+    }
+    /* -- blog-area media css start-- */
+    #blog {
+        padding: 90px 0 90px;
+    }
+    /* -- footer-area media css start-- */
+    #footer {
+        padding-top: 90px;
+    }
+    .footer-box i {
+        padding: 12px 15px;
+    }
+    .copyright-area {
+        margin-top: 90px;
+    }
 }
 
 /* -------medium device media css start--------  */
@@ -45,10 +114,10 @@
     }
     /* --banner-area media css start-- */
     #banner {
-        height: 70vh;
+        height: 80vh;
     }
     .banner-main {
-        top: 38%;
+        top: 44%;
     }
     .banner-content p {
         max-width: 500px;
@@ -128,7 +197,7 @@
         line-height: 24px;
     }
     .testi-say {
-        padding: 18px 18px;
+        padding: 20px 25px;
     }
     .testi-say p {
         line-height: 24px;
@@ -137,21 +206,52 @@
         margin-left: 0px;
     }
     .test-img {
-        left: 84%;
+        left: 87%;
     }
     .testi-left-arrow {
-        top: 85%;
-        left: 4%;
+        top: 340%;
     }
     .testi-right-arrow {
-        top: 85%;
-        left: 83px;
+        top: 340%;
     }
-
-
-
-
-
+    /* -- team-area media css start-- */
+    #team {
+        padding: 80px 0 80px;
+    }
+    /* --counter-area media css start-- */
+    #client {
+        padding: 80px 0 80px;
+    }
+    /* -- blog-area media css start-- */
+    #blog {
+        padding: 80px 0 80px;
+    }
+    /* -- footer-area media css start-- */
+    #footer {
+        padding-top: 80px;
+    }
+    .footer-content p {
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    .footer-content {
+        padding-bottom: 35px;
+    }
+    .footer-address {
+        padding-bottom: 35px;
+    }
+    .footer-details p {
+        line-height: 24px;
+    }
+    .copyright-area {
+        margin-top: 80px;
+    }
+    .footer-details {
+        padding-top: 15px;
+    }
+    .footer-box i {
+        padding: 12px 76px;
+    }
 }
 
 /* -------small device media css start--------  */
@@ -193,10 +293,10 @@
     }
     /* --banner-area media css start-- */
     #banner {
-        height: 70vh;
+        height: 80vh;
     }
     .banner-main {
-        top: 38%;
+        top: 44%;
     }
     .banner-content h1 {
         font-size: 50px;
@@ -296,12 +396,10 @@
         left: 84%;
     }
     .testi-left-arrow {
-        top: 85%;
-        left: 4%;
+        top: 320%;
     }
     .testi-right-arrow {
-        top: 85%;
-        left: 83px;
+        top: 320%;
     }
     /* -- team-area media css start-- */
     #team {
@@ -394,10 +492,10 @@
     }
     /* --banner-area media css start-- */
     #banner {
-        height: 70vh;
+        height: 80vh;
     }
     .banner-main {
-        top: 38%;
+        top: 44%;
     }
     .banner-content h1 {
         font-size: 33px;
@@ -507,12 +605,10 @@
         left: 71%;
     }
     .testi-left-arrow {
-        top: 88%;
-        left: 4%;
+        top: 312%;
     }
     .testi-right-arrow {
-        top: 88%;
-        left: 75px;
+        top: 312%;
     }
     /* -- team-area media css start-- */
     #team {
@@ -581,14 +677,21 @@
         left: 84%;
     }
     .testi-left-arrow {
-        top: 85%;
+        top: 332%;
     }
     .testi-right-arrow {
-        top: 85%;
-        left: 82px;
+        top: 332%;
     }
     .footer-box i {
         padding: 20px 48px;
+    }
+}
+@media(min-width:360px) and (max-width:490px) {
+    .testi-left-arrow {
+        top: 353%;
+    }
+    .testi-right-arrow {
+        top: 353%;
     }
 }
 

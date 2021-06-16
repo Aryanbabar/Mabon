@@ -3,19 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 ul,ol{
     list-style: none;
 }
-
 a{
     text-decoration: none;
 }
-
 h1,h2,h3,h4,h5,h6{
     line-height: 0.8;
 }
-
 h2 {
     font-size: 32px;
     font-family: 'Lato', sans-serif;
@@ -25,7 +21,7 @@ h2 {
 }
 /* ================= common css end ================= */
 
-/* back-to-top part css start */
+/* back-to-top-area css start */
 .back-to-top {
     position: fixed;
     bottom: 30px;
@@ -49,7 +45,7 @@ h2 {
     border: 2px solid #c9a66d;
     transform: scale(0.9);
 }
-/* back-to-top part css end */
+/* back-to-top-area css end */
 
 /* -----navber-area css start hare-----  */
 .navbar {
@@ -243,7 +239,7 @@ h2 {
 }
 .banner-content p {
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 26px;
@@ -280,9 +276,6 @@ h2 {
     height: 100%;
 }
 /* navber-area css end hare  */
-
-
-
 
 /*about-area css start hare  */
 #about {
@@ -416,8 +409,6 @@ h2 {
     font-size: 45px;
 } 
 /* service-area css end hare  */
-
-
 
 
 /* portfolio-area css start hare  */
@@ -636,47 +627,45 @@ h2 {
     text-transform: capitalize;
     line-height: 26px;
 }
+.testi-content {
+    position: relative;
+}
 .testi-left-arrow {
-    width: 50px;
-    height: 50px;
-    background: transparent;
-    color: #fff;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid #fff;
-    transform: scale(1);
-    position: absolute;
-    top: 70%;
-    left: 10%;
-    z-index: 9;
-    transition: all linear 0.3s;
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	transform: scale(1);
+	position: absolute;
+	top: 149%;
+	left: 0;
+	z-index: 9;
+	transition: all linear 0.3s;
 }
 .testi-left-arrow:hover {
     color: #c9a66d;
     border: 1px solid #c9a66d;
     transform: scale(0.9);
 }
-/* #testimonials:hover .testi-left-arrow{
-    left: 150px;
-    opacity: 1;
-    visibility: visible;
-} */
 .testi-right-arrow {
-    width: 50px;
-    height: 50px;
-    background: transparent;
-    color: #fff;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid #fff;
-    transform: scale(1);
-    position: absolute;
-    top: 70%;
-    left: 190px;
-    z-index: 9;
-    transition: all linear 0.3s;
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	transform: scale(1);
+	position: absolute;
+	top: 149%;
+	left: 61px;
+	z-index: 9;
+	transition: all linear 0.3s;
 }
 .testi-right-arrow:hover {
     color: #c9a66d;
@@ -745,7 +734,6 @@ h2 {
     font-weight: 400;
     text-transform: capitalize;
 }
-
 /* testimonials-area css end hare  */
 
 
@@ -863,7 +851,6 @@ h2 {
 }
 /* clients-area css end hare  */
 
-
 /* blog-area css start hare  */
 #blog {
     padding: 96px 0 80px;
@@ -964,8 +951,6 @@ h2 {
     visibility: visible;
 }
 /* blog-area css end hare  */
-
-
 
 /* footer-area css start hare  */
 #footer {
