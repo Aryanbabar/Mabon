@@ -204,7 +204,6 @@ h2 {
     transform: scale(1);
     position: absolute;
     top: 90%;
-    /* right: 500px; */
     right: 0;
     z-index: 9;
     opacity: 0;
@@ -367,7 +366,8 @@ h2 {
     color: #444;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     line-height: 26px;
 }
 /* about-area css end hare  */
@@ -399,7 +399,7 @@ h2 {
 }
 .service-item:hover {
 	box-shadow: 0px 3px 8px -5px #000;
-	margin-top: -2px;
+    transform: translateY(-5px);
 }
 .service-item h4 {
     color: #444;
@@ -477,6 +477,14 @@ h2 {
     opacity: 1;
     visibility: visible;
 }
+.port-nav button.mixitup-control-active{
+    color: #c9a66d;
+}
+.port-nav button.mixitup-control-active::after{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
 .portfolio-item {
     position: relative;
     transition: all linear 0.3s;
@@ -534,7 +542,6 @@ h2 {
     opacity: 0;
     visibility: hidden;
     transition: all linear 0.3s;
-
 }
 .port-overlay:hover .prt-h-line {
     left: 50%;
@@ -612,7 +619,6 @@ h2 {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    /* height: 80vh; */
     position: relative;
     z-index: 9;
     padding: 100px 0 95px;
