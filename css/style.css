@@ -1,3 +1,28 @@
+/*
+------------------
+Template Name: Mavon
+Author       :
+Author Email :
+Verson       : 1.00
+
+------------------
+Table of Content
+------------------
+1.navbar-area
+2.banner-area
+3.about-area
+4.service-area
+5.portfolio-area
+6.counter-area
+7.testimonials-area
+8.team-area
+9.clients-area
+10.blog-area
+11.footer-area
+------------------
+ */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +44,7 @@ h2 {
     line-height: 38px;
     text-transform: capitalize;
 }
-/* ================= common css end ================= */
+/* =================== common css end =================== */
 
 /* back-to-top-area css start */
 .back-to-top {
@@ -56,7 +81,6 @@ h2 {
     top: 0;
     left: 0;
     z-index: 999;
-    /* border-bottom: 1px solid #cea05b4b; */
 }
 .navbar-expand-lg .navbar-nav .nav-link {
 	color: #fff;
@@ -113,7 +137,7 @@ h2 {
 }
 /* -----navber-area css end hare----- */
 
-/* navber-area css start hare  */
+/* banner-area css start hare  */
 #banner {
     height: 100vh;
     position: relative;
@@ -295,7 +319,7 @@ h2 {
     top: 0;
     height: 100%;
 }
-/* navber-area css end hare  */
+/* banner-area css end hare  */
 
 /*about-area css start hare  */
 #about {
@@ -510,43 +534,21 @@ h2 {
     opacity: 1;
     visibility: visible;
 }
-.prt-v-line {
-    width: 2px;
-    height: 30px;
-    background: #fff;
+.port-overlay i {
+    color: #fff;
+    font-size: 26px;
     position: absolute;
-    /* top: -20px; */
-    top: 40%;
-    left: 50%;
-    transform: translateY(-50%) scale(0.5);
+    top: 3%;
+    right: 3%;
+    transform: scale(0.5);
+    transition: all linear 0.3s;
     opacity: 0;
     visibility: hidden;
-    transition: all linear 0.3s;
 }
-.port-overlay:hover .prt-v-line {
-    top: 40%;
+.portfolio-item:hover .port-overlay i {
+    transform: scale(1);
     opacity: 1;
     visibility: visible;
-    transform: translateY(-50%) scale(1.1);
-}
-.prt-h-line {
-    width: 30px;
-    height: 2px;
-    background: #fff;
-    position: absolute;
-    top: 40%;
-    /* left: -20px; */
-    left: 50%;
-    transform: translateX(-50%) scale(0.5);
-    opacity: 0;
-    visibility: hidden;
-    transition: all linear 0.3s;
-}
-.port-overlay:hover .prt-h-line {
-    left: 50%;
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(-50%) scale(1.1);
 }
 .port-overlay2 {
     width: 100%;
@@ -554,7 +556,7 @@ h2 {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     bottom: -100px;
-    left: 0;
+    left: -40px;
     text-align: center;
     opacity: 0;
     visibility: hidden;
@@ -562,6 +564,7 @@ h2 {
 }
 .portfolio-item:hover .port-overlay2 {
     bottom: 0;
+    left: 0;
     opacity: 1;
     visibility: visible;
 }
@@ -702,7 +705,6 @@ h2 {
     opacity: 1;
     visibility: visible;
 } */
-
 .test-item {
     margin-left: 20px;
 }
@@ -760,7 +762,6 @@ h2 {
     text-transform: capitalize;
 }
 /* testimonials-area css end hare  */
-
 
 /* team-area css start hare  */
 #team {
@@ -1045,6 +1046,7 @@ h2 {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    line-height: 26px;
     text-transform: capitalize;
     margin: 0;
     padding-bottom: 8px;
@@ -1118,6 +1120,9 @@ h2 {
     font-weight: 400;
     text-transform: capitalize;
     margin: 0;
+}
+.copyright-content span {
+    color: #c9a66d;
 }
 /* copyright-area css end hare  */
 
